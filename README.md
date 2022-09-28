@@ -19,3 +19,10 @@ Can you identify a problem with a cassava plant using a photo from a relatively 
 **train_tfrecords** the image files in tfrecord format.
 
 **label_num_to_disease_map.json** The mapping between each disease code and the real disease name.
+
+### Download
+You can easily download the dataset using the kaggle API, or just go to the URL below. 
+
+**API command**: kaggle competitions download -c cassava-leaf-disease-classification
+
+**URL for dataset**: https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data
