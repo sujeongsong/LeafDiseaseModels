@@ -19,5 +19,3 @@ Can you identify a problem with a cassava plant using a photo from a relatively 
 **train_tfrecords** the image files in tfrecord format.
 
 **label_num_to_disease_map.json** The mapping between each disease code and the real disease name.
-
-\* Note: You need to split the images in **train_images** into train/validation/test set. 
