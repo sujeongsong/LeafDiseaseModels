@@ -108,4 +108,3 @@ with torch.no_grad():
 
 # Creating submission data
 submission = pd.DataFrame.from_records(s_ls, columns=['image_id', 'label'])
-a = 1
