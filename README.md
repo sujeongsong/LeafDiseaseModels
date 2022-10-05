@@ -10,11 +10,11 @@ A dataset of 21,367 labeled images are introduced, those images were collected d
 
 ### Files
 
-**train_images** the image file. 
+**[train/test]_images** the image file. 
 
 **train.csv** the csv file including **image_id** and **label**.
 
-**train_tfrecords** the image files in tfrecord format.
+**[train/test]_tfrecords** the image files in tfrecord format.
 
 **label_num_to_disease_map.json** The mapping between each disease code and the real disease name.
 
@@ -24,3 +24,5 @@ You can easily download the dataset using the kaggle API, or just go to the URL 
 **API command**: kaggle competitions download -c cassava-leaf-disease-classification
 
 **URL for dataset**: https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data
+
+\* Note: If the test images (or tfrecords) are not downloaded properly, please split the train set to make your own train/test sets. 
